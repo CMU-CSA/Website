@@ -1,5 +1,5 @@
 # CSA Website Files
-CSA Website Repository - This Repository is intended to share files and design documents, not for codes. 
+This Repository is intended to share files and design documents, not for codes. 
 
 ## List of Files
 - Requirement Specification

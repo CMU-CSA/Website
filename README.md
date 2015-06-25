@@ -5,4 +5,4 @@ This Repository is intended to share files and design documents.
 - Requirement Specification
 - Desgin Document
 - Intro to Web Building
-- Git Collaboration Guildline
+- Git Collaboration Guideline

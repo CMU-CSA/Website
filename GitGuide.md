@@ -83,11 +83,11 @@ If there are changes made on the Github repository but not in the local reposito
 
         $ git fetch
 
-    Then you should have your local files updated.
-4.  If you encounter conflicts, type in:
+4.  Type in:
 
         $ git merge
 
+    Then you should have your local files updated.
 
 ## Standard of Writing Commit Message
 Each time you want to commit something, please specify the following in your commit message:

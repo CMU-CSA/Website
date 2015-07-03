@@ -12,6 +12,12 @@
 - `$ git fetch`
 - `$ git merge`
 
+## Git Configuration
+
+Type in your command line tool:
+
+    $ git config --global user.name "(Your Github Username)"
+    $ git conffg --global user.emal "(Your Github Email)"
 
 ## Set up Local Repository
 

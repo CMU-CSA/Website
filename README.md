@@ -6,3 +6,4 @@ This Repository is intended to share files and design documents.
 - Desgin Document
 - Intro to Web Building
 - Git Collaboration Guideline
+- Meeting Notes

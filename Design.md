@@ -20,23 +20,37 @@ updated: 07/13/2015 by Langxuan Su
     
         $ pip sudo install Django
 
+## Installed Apps
+
+- mainpage
+
 ## Models
 
+##### mainpage:
 - `models.py`
 
 ## View Controllers
 
+##### mainpage:
 - `view.py`
-    - `index`
+    - `home` render the home page
 
 ## Routes
 
-- `/` - `view.index`
+##### mainpage:
+- `/home` calls `view.home`
 
 ## Templates
 
-- `base.html`
-- `index.html`
+##### mainpage:
+- `base.html` the base html frame | include: `navbar.html`, `footer.html` | block: `navbar`, `content`
+- `navbar.html` the navigation bar of home page
+- `footer.html` the footer of home page
+- `home.html` the home page | extends: `base.html` | block: `navbar`, `content`
+- `contact.html` the contact page | extends: `base.html` | block: `content`
+- `aboutus.html` the about us page | extends: `base.html` | block: `content`
 
 ## Static Files
 
+##### mainpage
+- `style.css` styles for all pages | loaded in `base.html`

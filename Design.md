@@ -18,7 +18,7 @@ updated: 07/13/2015 by Langxuan Su
 
 - Django v1.8 installed with **pip**
     
-        $ pip sudo install pip
+        $ pip sudo install Django
 
 ## Models
 

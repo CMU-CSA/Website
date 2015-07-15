@@ -5,12 +5,20 @@ updated: 07/13/2015 by Langxuan Su
 ## Basic Info
 
 - Language: Python
-- Framework: Django
+- Framework: Django 
 - Server: Apache?
 - System: Linux?
-- Database: MySQL
+- Database: MySQL/SQLite3
 - Platform: GoDaddy
 - Test Server: Heroku?
+
+## Installed Dependencies
+
+- Python v2.7
+
+- Django v1.8 installed with **pip**
+    
+        $ pip sudo install pip
 
 ## Models
 

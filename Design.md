@@ -1,6 +1,6 @@
 # Design Document
 
-updated: 07/13/2015 by Langxuan Su
+updated: 07/16/2015 by Langxuan Su
 
 ## Basic Info
 
@@ -32,13 +32,17 @@ updated: 07/13/2015 by Langxuan Su
 ## View Controllers
 
 ##### mainpage:
-- `view.py`
-    - `home` render the home page
+- `views.py`:
+    - `home` renders the home page
+    - `contact` renders the contact page
+    - `aboutus` renders the about us page
 
 ## Routes
 
 ##### mainpage:
-- `/home` calls `view.home`
+- `/home` calls `views.home`
+- `/home/contact` calls `views.contact`
+- `/home/aboutus` calls `views.aboutus`
 
 ## Templates
 

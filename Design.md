@@ -38,6 +38,9 @@ updated: 07/16/2015 by Langxuan Su
     - `aboutus` renders the about us page
 
 ## Routes
+*All relative to root*
+
+- `/` redirects to `/home`
 
 ##### mainpage:
 - `/home` calls `views.home`
@@ -56,5 +59,5 @@ updated: 07/16/2015 by Langxuan Su
 
 ## Static Files
 
-##### mainpage
+##### mainpage:
 - `style.css` styles for all pages | loaded in `base.html`
